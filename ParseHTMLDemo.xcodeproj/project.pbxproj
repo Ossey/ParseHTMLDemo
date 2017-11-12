@@ -7,86 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		184DA42E1FB86C2E009F29B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DA42D1FB86C2E009F29B0 /* main.m */; };
-		184DA4361FB86C41009F29B0 /* OSXMLDocumentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DA4351FB86C41009F29B0 /* OSXMLDocumentItem.m */; };
-		904427BDC309A737CE386EFD /* libPods-ParseHTMLDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6BBD020ADAE3A4CBA42739 /* libPods-ParseHTMLDemo.a */; };
+		01EA3CC46BC2B32947A78078 /* libPods-ParseHTMLDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD00F1228A3DEBF0C149477 /* libPods-ParseHTMLDemo.a */; };
+		184DA4021FB86843009F29B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DA4011FB86843009F29B0 /* AppDelegate.m */; };
+		184DA4051FB86843009F29B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DA4041FB86843009F29B0 /* ViewController.m */; };
+		184DA4081FB86843009F29B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DA4061FB86843009F29B0 /* Main.storyboard */; };
+		184DA40A1FB86843009F29B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DA4091FB86843009F29B0 /* Assets.xcassets */; };
+		184DA40D1FB86843009F29B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DA40B1FB86843009F29B0 /* LaunchScreen.storyboard */; };
+		184DA4101FB86843009F29B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DA40F1FB86843009F29B0 /* main.m */; };
+		184DA4201FB86A51009F29B0 /* OSXMLDocumentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DA41F1FB86A51009F29B0 /* OSXMLDocumentItem.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		184DA4281FB86C2E009F29B0 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		184DA42A1FB86C2E009F29B0 /* ParseHTMLDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParseHTMLDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		184DA42D1FB86C2E009F29B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		184DA4341FB86C41009F29B0 /* OSXMLDocumentItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXMLDocumentItem.h; sourceTree = "<group>"; };
-		184DA4351FB86C41009F29B0 /* OSXMLDocumentItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXMLDocumentItem.m; sourceTree = "<group>"; };
-		2A6BBD020ADAE3A4CBA42739 /* libPods-ParseHTMLDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseHTMLDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B057690789D88A094A74173 /* Pods-ParseHTMLDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseHTMLDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseHTMLDemo/Pods-ParseHTMLDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		88C9858F68BAE3A6C3E64EB8 /* Pods-ParseHTMLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseHTMLDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseHTMLDemo/Pods-ParseHTMLDemo.release.xcconfig"; sourceTree = "<group>"; };
+		184DA3FD1FB86843009F29B0 /* ParseHTMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseHTMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DA4001FB86843009F29B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184DA4011FB86843009F29B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184DA4031FB86843009F29B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184DA4041FB86843009F29B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184DA4071FB86843009F29B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184DA4091FB86843009F29B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184DA40C1FB86843009F29B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184DA40E1FB86843009F29B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184DA40F1FB86843009F29B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184DA41E1FB86A51009F29B0 /* OSXMLDocumentItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXMLDocumentItem.h; sourceTree = "<group>"; };
+		184DA41F1FB86A51009F29B0 /* OSXMLDocumentItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXMLDocumentItem.m; sourceTree = "<group>"; };
+		2A8A7923E0C3F2D835031CCA /* Pods-ParseHTMLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseHTMLDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseHTMLDemo/Pods-ParseHTMLDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5DD00F1228A3DEBF0C149477 /* libPods-ParseHTMLDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseHTMLDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB16D71750672055CE744932 /* Pods-ParseHTMLDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseHTMLDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseHTMLDemo/Pods-ParseHTMLDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		184DA4271FB86C2E009F29B0 /* Frameworks */ = {
+		184DA3FA1FB86843009F29B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				904427BDC309A737CE386EFD /* libPods-ParseHTMLDemo.a in Frameworks */,
+				01EA3CC46BC2B32947A78078 /* libPods-ParseHTMLDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		184DA4211FB86C2E009F29B0 = {
+		0BDBFB1BE0583B35023CB0F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				184DA42C1FB86C2E009F29B0 /* ParseHTMLDemo */,
-				184DA42B1FB86C2E009F29B0 /* Products */,
-				479F274DA126F8EC9EFE95AF /* Pods */,
-				DA1D89318097AD2EC503B696 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		184DA42B1FB86C2E009F29B0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				184DA42A1FB86C2E009F29B0 /* ParseHTMLDemo */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		184DA42C1FB86C2E009F29B0 /* ParseHTMLDemo */ = {
-			isa = PBXGroup;
-			children = (
-				184DA4341FB86C41009F29B0 /* OSXMLDocumentItem.h */,
-				184DA4351FB86C41009F29B0 /* OSXMLDocumentItem.m */,
-				184DA42D1FB86C2E009F29B0 /* main.m */,
-			);
-			path = ParseHTMLDemo;
-			sourceTree = "<group>";
-		};
-		479F274DA126F8EC9EFE95AF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2B057690789D88A094A74173 /* Pods-ParseHTMLDemo.debug.xcconfig */,
-				88C9858F68BAE3A6C3E64EB8 /* Pods-ParseHTMLDemo.release.xcconfig */,
+				BB16D71750672055CE744932 /* Pods-ParseHTMLDemo.debug.xcconfig */,
+				2A8A7923E0C3F2D835031CCA /* Pods-ParseHTMLDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DA1D89318097AD2EC503B696 /* Frameworks */ = {
+		184DA3F41FB86843009F29B0 = {
 			isa = PBXGroup;
 			children = (
-				2A6BBD020ADAE3A4CBA42739 /* libPods-ParseHTMLDemo.a */,
+				184DA3FF1FB86843009F29B0 /* ParseHTMLDemo */,
+				184DA3FE1FB86843009F29B0 /* Products */,
+				0BDBFB1BE0583B35023CB0F1 /* Pods */,
+				9A6256BB10E17448C344B46E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184DA3FE1FB86843009F29B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184DA3FD1FB86843009F29B0 /* ParseHTMLDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184DA3FF1FB86843009F29B0 /* ParseHTMLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				184DA4001FB86843009F29B0 /* AppDelegate.h */,
+				184DA4011FB86843009F29B0 /* AppDelegate.m */,
+				184DA4031FB86843009F29B0 /* ViewController.h */,
+				184DA4041FB86843009F29B0 /* ViewController.m */,
+				184DA4061FB86843009F29B0 /* Main.storyboard */,
+				184DA4091FB86843009F29B0 /* Assets.xcassets */,
+				184DA40B1FB86843009F29B0 /* LaunchScreen.storyboard */,
+				184DA40E1FB86843009F29B0 /* Info.plist */,
+				184DA40F1FB86843009F29B0 /* main.m */,
+				184DA41E1FB86A51009F29B0 /* OSXMLDocumentItem.h */,
+				184DA41F1FB86A51009F29B0 /* OSXMLDocumentItem.m */,
+			);
+			path = ParseHTMLDemo;
+			sourceTree = "<group>";
+		};
+		9A6256BB10E17448C344B46E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DD00F1228A3DEBF0C149477 /* libPods-ParseHTMLDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,15 +103,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		184DA4291FB86C2E009F29B0 /* ParseHTMLDemo */ = {
+		184DA3FC1FB86843009F29B0 /* ParseHTMLDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 184DA4311FB86C2E009F29B0 /* Build configuration list for PBXNativeTarget "ParseHTMLDemo" */;
+			buildConfigurationList = 184DA4131FB86843009F29B0 /* Build configuration list for PBXNativeTarget "ParseHTMLDemo" */;
 			buildPhases = (
-				D7833927148C4C2F0D641DC6 /* [CP] Check Pods Manifest.lock */,
-				184DA4261FB86C2E009F29B0 /* Sources */,
-				184DA4271FB86C2E009F29B0 /* Frameworks */,
-				184DA4281FB86C2E009F29B0 /* CopyFiles */,
-				34639D03931A7FE83BB22C2A /* [CP] Copy Pods Resources */,
+				167EFBA89EAF052035F862A3 /* [CP] Check Pods Manifest.lock */,
+				184DA3F91FB86843009F29B0 /* Sources */,
+				184DA3FA1FB86843009F29B0 /* Frameworks */,
+				184DA3FB1FB86843009F29B0 /* Resources */,
+				0F28C7828C84072398953BEE /* [CP] Embed Pods Frameworks */,
+				333F199307A50662B965774B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,58 +120,72 @@
 			);
 			name = ParseHTMLDemo;
 			productName = ParseHTMLDemo;
-			productReference = 184DA42A1FB86C2E009F29B0 /* ParseHTMLDemo */;
-			productType = "com.apple.product-type.tool";
+			productReference = 184DA3FD1FB86843009F29B0 /* ParseHTMLDemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		184DA4221FB86C2E009F29B0 /* Project object */ = {
+		184DA3F51FB86843009F29B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Ossey;
 				TargetAttributes = {
-					184DA4291FB86C2E009F29B0 = {
+					184DA3FC1FB86843009F29B0 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 184DA4251FB86C2E009F29B0 /* Build configuration list for PBXProject "ParseHTMLDemo" */;
+			buildConfigurationList = 184DA3F81FB86843009F29B0 /* Build configuration list for PBXProject "ParseHTMLDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 184DA4211FB86C2E009F29B0;
-			productRefGroup = 184DA42B1FB86C2E009F29B0 /* Products */;
+			mainGroup = 184DA3F41FB86843009F29B0;
+			productRefGroup = 184DA3FE1FB86843009F29B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				184DA4291FB86C2E009F29B0 /* ParseHTMLDemo */,
+				184DA3FC1FB86843009F29B0 /* ParseHTMLDemo */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		184DA3FB1FB86843009F29B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DA40D1FB86843009F29B0 /* LaunchScreen.storyboard in Resources */,
+				184DA40A1FB86843009F29B0 /* Assets.xcassets in Resources */,
+				184DA4081FB86843009F29B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		34639D03931A7FE83BB22C2A /* [CP] Copy Pods Resources */ = {
+		0F28C7828C84072398953BEE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseHTMLDemo/Pods-ParseHTMLDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseHTMLDemo/Pods-ParseHTMLDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D7833927148C4C2F0D641DC6 /* [CP] Check Pods Manifest.lock */ = {
+		167EFBA89EAF052035F862A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -176,22 +200,58 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		333F199307A50662B965774B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseHTMLDemo/Pods-ParseHTMLDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		184DA4261FB86C2E009F29B0 /* Sources */ = {
+		184DA3F91FB86843009F29B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184DA42E1FB86C2E009F29B0 /* main.m in Sources */,
-				184DA4361FB86C41009F29B0 /* OSXMLDocumentItem.m in Sources */,
+				184DA4051FB86843009F29B0 /* ViewController.m in Sources */,
+				184DA4101FB86843009F29B0 /* main.m in Sources */,
+				184DA4021FB86843009F29B0 /* AppDelegate.m in Sources */,
+				184DA4201FB86A51009F29B0 /* OSXMLDocumentItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		184DA4061FB86843009F29B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DA4071FB86843009F29B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184DA40B1FB86843009F29B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DA40C1FB86843009F29B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		184DA42F1FB86C2E009F29B0 /* Debug */ = {
+		184DA4111FB86843009F29B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +280,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -239,14 +299,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		184DA4301FB86C2E009F29B0 /* Release */ = {
+		184DA4121FB86843009F29B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +335,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -288,54 +348,65 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		184DA4321FB86C2E009F29B0 /* Debug */ = {
+		184DA4141FB86843009F29B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B057690789D88A094A74173 /* Pods-ParseHTMLDemo.debug.xcconfig */;
+			baseConfigurationReference = BB16D71750672055CE744932 /* Pods-ParseHTMLDemo.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NKW67GFDHM;
+				INFOPLIST_FILE = ParseHTMLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ossey.ParseHTMLDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		184DA4331FB86C2E009F29B0 /* Release */ = {
+		184DA4151FB86843009F29B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88C9858F68BAE3A6C3E64EB8 /* Pods-ParseHTMLDemo.release.xcconfig */;
+			baseConfigurationReference = 2A8A7923E0C3F2D835031CCA /* Pods-ParseHTMLDemo.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NKW67GFDHM;
+				INFOPLIST_FILE = ParseHTMLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ossey.ParseHTMLDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		184DA4251FB86C2E009F29B0 /* Build configuration list for PBXProject "ParseHTMLDemo" */ = {
+		184DA3F81FB86843009F29B0 /* Build configuration list for PBXProject "ParseHTMLDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				184DA42F1FB86C2E009F29B0 /* Debug */,
-				184DA4301FB86C2E009F29B0 /* Release */,
+				184DA4111FB86843009F29B0 /* Debug */,
+				184DA4121FB86843009F29B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		184DA4311FB86C2E009F29B0 /* Build configuration list for PBXNativeTarget "ParseHTMLDemo" */ = {
+		184DA4131FB86843009F29B0 /* Build configuration list for PBXNativeTarget "ParseHTMLDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				184DA4321FB86C2E009F29B0 /* Debug */,
-				184DA4331FB86C2E009F29B0 /* Release */,
+				184DA4141FB86843009F29B0 /* Debug */,
+				184DA4151FB86843009F29B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 184DA4221FB86C2E009F29B0 /* Project object */;
+	rootObject = 184DA3F51FB86843009F29B0 /* Project object */;
 }
